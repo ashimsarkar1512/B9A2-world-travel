@@ -80,7 +80,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  /* 162.5% */
+  
 }
 
 .input-item {
@@ -181,11 +181,106 @@ ul {
 
 }
 
+.container-head{
+  text-align: center;
+}
+
+.image-row{
+ margin: 0 auto;
+ display: flex;
+justify-content: center;
+margin-top: 50px;
+ gap: 20px;
+ 
+}
+.three-image,.two-image {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+
+}
+.Maldives h3,.Indonesia h3{
+  position: absolute;
+ margin-top: -180px;
+ margin-left:220px;
+ color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 800;
+}
+.Maldives{
+  position: relative;
+}
+.Indonesia{
+  position: relative;
+}
+
+.srilanka{
+  position: relative;
+}
+.srilanka h3, .north-america h3{
+ position: absolute;
+ margin-top: -170px;
+  margin-left:140px;
+  color: #FFF;
+ text-align: center;
+ font-size: 24px;
+ font-weight: 800;
+}
+.north-america{
+  position: relative;
+}
+.kashmir{
+  position: relative;
+}
+.kashmir h3{
+  position: absolute;
+ margin-top: -170px;
+  margin-left:90px;
+  color: #FFF;
+ text-align: center;
+ font-size: 24px;
+ font-weight: 800;
+
+}
+
+.Bangladesh{
+position: relative;
+}
+.Bangladesh h3{
+  position: absolute;
+  margin-top: -170px;
+  margin-left:150px;
+  color: #FFF;
+ text-align: center;
+ font-size: 24px;
+ font-weight: 800;
+}
+.Bandarban{
+  position: relative;
+}
+.Bandarban h3{
+  position: absolute;
+  margin-top: -170px;
+  margin-left:250px;
+  color: #FFF;
+ text-align: center;
+ font-size: 24px;
+ font-weight: 800;
+}
+
+
+
+.image-section img{
+background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(),lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+}
 .Newsletter-section {
   max-width: 1120px;
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
+  background: #FFF;
 }
 
 .Newsletter {
@@ -283,7 +378,7 @@ font-style: normal;
 
 .footer-section {
   background: rgba(19, 19, 24, 0.05);
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 
 }
 
@@ -316,18 +411,26 @@ font-style: normal;
   font-weight: 400;
 
 }
+.line-1{
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.15);
+  width: 1320px;
+height: 1px;
+margin-top: 30px;
+  
+}
 
 .social-icons {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 24px;
+  padding-top: px;
   height: 30px;
   margin-bottom: 40px;
 
 }
 
-.line {
+.line-2 {
   width: 872px;
   height: 1px;
   margin: 0 auto;
@@ -343,5 +446,21 @@ font-style: normal;
   /* .travel-section{
 flex-direction: column;
   } */
+  .menu{
+    flex-direction: column;
+    width: 100%;
+  }
+  .Newsletter-section{
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .Newsletter-image{
+    width:30%px;
+  }
+  .tour-section{
+    flex-direction: column;
+    
+  }
   .heading-explore {}
 }
