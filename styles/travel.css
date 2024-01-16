@@ -20,6 +20,9 @@ body {
   gap: 44px;
 
 }
+.menu-icon{
+  display: none;
+}
 
 .menu a {
   color: #424247;
@@ -56,12 +59,14 @@ body {
   margin: 0 auto;
   background-repeat: no-repeat;
   border-radius: 16px;
-}
+} 
 
 .heading-explore {
+
   padding-top: 50px;
   height: 500px;
   text-align: center;
+  
 }
 
 .heading-explore h1 {
@@ -79,7 +84,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  
   
 }
 
@@ -181,6 +186,7 @@ ul {
 
 }
 
+
 .container-head{
   text-align: center;
 }
@@ -190,13 +196,13 @@ ul {
  display: flex;
 justify-content: center;
 margin-top: 50px;
- gap: 20px;
+ gap: 15px;
  
 }
 .three-image,.two-image {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   margin-top: 20px;
 
 }
@@ -271,14 +277,56 @@ position: relative;
 }
 
 
-
-.image-section img{
-background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(),lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+.services{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+   max-width: 1120px;
+   margin: 0 auto;
 }
+.price-garrenty{
+  grid-column: span 2 / span 2;
+  margin: 0 auto;
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding-left: 40px;
+padding-right: 90px;
+padding-top: 30px;
+}
+
+
+
+
+.hotel-service{
+
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding-left: 40px;
+padding-top: 30px;
+
+}
+
+.world-service{
+
+
+padding-left: 40px;
+padding-top: 30px;
+  
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+
+
+
 .Newsletter-section {
   max-width: 1120px;
   margin: 60px auto;
   display: flex;
+  gap:20px ;
   justify-content: space-between;
   background: #FFF;
 }
@@ -439,28 +487,126 @@ margin-top: 30px;
 
 }
 
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:600px){
+
+ .header-section{
+  /* flex-direction: column;
+  text-align: center;
+  width: 100%; */
+  
+ }
+ .menu{
+  display: none;
+ }
+ .menu-icon{
+  display: block;
+  font-size: 30px;
+ }
+ .heading-explore h1 {
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+ }
+.heading-explore p{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  
+}
 
 
-@media screen and (max-width:600px) {
+ .travel-section{
+  /* height: 700px; */
+ }
+ 
+ .tour-section{
+  flex-direction: column;
+  padding: 0 10px;
+ }
+ .image-section{
+  flex-direction: column;
+ display: block;
+ }
+ .responsive-images{
+width: 520px;
+ }
+ .image-row{
+  flex-direction: column;
+ }
+ .three-image{
+  flex-direction: column;
+ 
+ }
 
-  /* .travel-section{
-flex-direction: column;
-  } */
-  .menu{
-    flex-direction: column;
-    width: 100%;
-  }
-  .Newsletter-section{
-    flex-direction: column;
-    width: 100%;
+.two-image{
+  flex-direction: column;
+}
 
-  }
-  .Newsletter-image{
-    width:30%px;
-  }
-  .tour-section{
-    flex-direction: column;
-    
-  }
-  .heading-explore {}
+.services{
+ 
+  display: block;
+  
+}
+.world-service{
+  margin: 20px 0px;
+}
+.price-garrenty{
+ 
+} 
+
+.footer-section{
+  flex-direction: column;
+}
+.line-1,.line-2{
+  width: 50%;
+}
+
+
+
+
+
+
+.Newsletter-section{
+  flex-direction: column;
+  width: 520px;
+}
+.Newsletter{
+  width: 80%;
+  margin: 0 auto;
+}
+.Newsletter-image{
+  position: relative;
+}
+.discount{
+  text-align: center;
+  border-radius: 16px;
+  background: #FF5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  position: absolute;
+  top: 150px;
+  margin-left: 190px;
+}
+.travel-section{
+  
+}
+
+ .input-item{
+  flex-direction: column;
+  
+ }
+ body{
+  padding: 0 20px;
+  margin: 0 auto;
+ }
 }
