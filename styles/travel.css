@@ -4,7 +4,8 @@ body {
 }
 
 .header-section {
-  max-width: 1120px;
+  /* max-width: 1120px; */
+  max-width: 1170px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -55,7 +56,8 @@ body {
 
 .travel-section {
   background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-  max-width: 1120px;
+  /* max-width: 1120px; */
+  max-width: 1170px;
   margin: 0 auto;
   background-repeat: no-repeat;
   border-radius: 16px;
@@ -89,16 +91,6 @@ body {
 }
 
 .input-item {
-  /* border-radius: 8px;
-  background: rgba(255, 255, 255, 0.30);
-  margin: 50px 165px;
-  color: rgba(19, 19, 24, 0.50);
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px;
-  display: flex;
-  gap: 20px; */
-
   display: inline-flex;
   padding: 10px;
   align-items: flex-start;
@@ -146,7 +138,8 @@ body {
 }
 
 .tour-section {
-  max-width: 1120px;
+  /* max-width: 1120px; */
+  max-width:1170px;
   margin: 50px auto;
   display: flex;
   align-items: center;
@@ -170,7 +163,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  /* 162.5% */
+  
 }
 
 .tour-section button {
@@ -185,7 +178,11 @@ ul {
   border: none;
 
 }
-
+.image-section{
+  /* max-width: 1120px; */
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 .container-head{
   text-align: center;
@@ -281,7 +278,8 @@ position: relative;
   display:grid;
   grid-template-columns: repeat(2,1fr);
   gap: 20px;
-   max-width: 1120px;
+   /* max-width: 1120px; */
+   max-width: 1170px;
    margin: 0 auto;
 }
 .price-garrenty{
@@ -323,7 +321,8 @@ padding-top: 30px;
 
 
 .Newsletter-section {
-  max-width: 1120px;
+  /*max-width: 1120px; */
+  max-width: 1170px;
   margin: 60px auto;
   display: flex;
   gap:20px ;
@@ -494,9 +493,7 @@ margin-top: 30px;
 @media screen and (max-width:600px){
 
  .header-section{
-  /* flex-direction: column;
-  text-align: center;
-  width: 100%; */
+ width: 540px;
   
  }
  .menu{
@@ -529,14 +526,17 @@ margin-top: 30px;
  
  .tour-section{
   flex-direction: column;
-  padding: 0 10px;
+  /* padding: 0 10px; */
+ }
+ .tour-section img{
+  width: 540px;
  }
  .image-section{
   flex-direction: column;
  display: block;
  }
  .responsive-images{
-width: 520px;
+width: 540px;
  }
  .image-row{
   flex-direction: column;
@@ -576,7 +576,7 @@ width: 520px;
 
 .Newsletter-section{
   flex-direction: column;
-  width: 520px;
+  width: 540px;
 }
 .Newsletter{
   width: 80%;
@@ -594,11 +594,11 @@ width: 520px;
   transform: rotate(-19.628deg);
   flex-shrink: 0;
   position: absolute;
-  top: 150px;
-  margin-left: 190px;
+  top: 125px;
+  margin-left: 140px;
 }
 .travel-section{
-  
+ 
 }
 
  .input-item{
@@ -606,8 +606,9 @@ width: 520px;
   
  }
  body{
-  padding: 0 20px;
-  margin: 0 auto;
+    padding: 0 20px;
+   margin: 0 auto; 
+   
  }
  .kashmir h3{
   
