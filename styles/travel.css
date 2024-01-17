@@ -528,8 +528,8 @@ margin-top: 30px;
   flex-direction: column;
  width: 540px;
  }
- .tour-section img{
- 
+ .input-item input,.button{
+  /* width: 250px; */
  }
  .image-section{
   flex-direction: column;
@@ -582,7 +582,7 @@ width: 540px;
   width: 540px;
 }
 .Newsletter{
-  width: 80%;
+   width:80%;
   margin: 0 auto;
 }
 .Newsletter-image{
@@ -597,11 +597,11 @@ width: 540px;
   transform: rotate(-19.628deg);
   flex-shrink: 0;
   position: absolute;
-  top: 125px;
-  margin-left: 140px;
+  top: 160px;
+  margin-left: 210px;
 }
 .travel-section{
- 
+ width: 540px;
 }
 
  .input-item{
@@ -609,8 +609,9 @@ width: 540px;
   
  }
  body{
-    /* padding: 0 40px; */
-   margin: 0 auto; 
+    margin: 0 auto; 
+ 
+   
    
  }
  .kashmir h3{
