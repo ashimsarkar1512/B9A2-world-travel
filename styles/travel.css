@@ -521,15 +521,15 @@ margin-top: 30px;
 
 
  .travel-section{
-  /* height: 700px; */
+  width: 540px;
  }
  
  .tour-section{
   flex-direction: column;
-  /* padding: 0 10px; */
+ width: 540px;
  }
  .tour-section img{
-  width: 540px;
+ 
  }
  .image-section{
   flex-direction: column;
@@ -553,6 +553,7 @@ width: 540px;
 .services{
  
   display: block;
+  width: 540px;
   
 }
 .world-service{
@@ -564,6 +565,8 @@ width: 540px;
 
 .footer-section{
   flex-direction: column;
+  width: 540px;
+  
 }
 .line-1,.line-2{
   width: 50%;
@@ -606,7 +609,7 @@ width: 540px;
   
  }
  body{
-    padding: 0 20px;
+    /* padding: 0 40px; */
    margin: 0 auto; 
    
  }
